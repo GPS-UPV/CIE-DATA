@@ -1,0 +1,79 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                2451,
+                2477
+            ],
+            [
+                2407,
+                2364,
+                2446
+            ],
+            [
+                2391,
+                0,
+                2425
+            ]
+        ],
+        "end_time": [
+            [
+                34,
+                2477,
+                2514
+            ],
+            [
+                2446,
+                2407,
+                2477
+            ],
+            [
+                2407,
+                32,
+                2446
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                4,
+                4,
+                4
+            ],
+            [
+                4,
+                4,
+                4
+            ],
+            [
+                4,
+                3,
+                2
+            ]
+        ],
+        "_output_item": "makespan=2514\nenergy=660\nidle=7263\nstart_times = [0, 2451, 2477, 2407, 2364, 2446, 2391, 0, 2425]\nend_times =[34, 2477, 2514, 2446, 2407, 2477, 2407, 32, 2446]\nspeed_assignment =[4, 4, 4, 4, 4, 4, 4, 3, 2]\ntimepro =[189, 56, 40, 34, 149, 44, 32, 26, 208, 62, 44, 37, 219, 65, 47, 39, 239, 71, 51, 43, 175, 52, 37, 31, 90, 26, 19, 16, 149, 44, 32, 26, 73, 21, 15, 13]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 110,
+        "flatIntConstraints": 101,
+        "evaluatedHalfReifiedConstraints": 18,
+        "method": "satisfy",
+        "flatTime": 65.148,
+        "nodes": 0,
+        "solveTime": 5.0,
+        "time": 84.0,
+        "openNodes": 1,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 1068,
+            "upper": 1426
+        },
+        "gap_end": {
+            "lower": 1068,
+            "upper": 1426
+        }
+    }
+}

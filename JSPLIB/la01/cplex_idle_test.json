@@ -1,0 +1,101 @@
+{
+    "status": "OPTIMAL_SOLUTION",
+    "solution": {
+        "objective": 666,
+        "s": [
+            [
+                255,
+                276,
+                451,
+                549,
+                632
+            ],
+            [
+                83,
+                304,
+                356,
+                421,
+                525
+            ],
+            [
+                38,
+                77,
+                184,
+                285,
+                329
+            ],
+            [
+                4,
+                104,
+                175,
+                316,
+                382
+            ],
+            [
+                0,
+                83,
+                117,
+                226,
+                546
+            ],
+            [
+                81,
+                181,
+                372,
+                481,
+                604
+            ],
+            [
+                196,
+                279,
+                360,
+                447,
+                573
+            ],
+            [
+                0,
+                216,
+                484,
+                525,
+                583
+            ],
+            [
+                0,
+                135,
+                254,
+                341,
+                534
+            ],
+            [
+                0,
+                117,
+                242,
+                285,
+                385
+            ]
+        ],
+        "makespan": 666,
+        "idle_time": 481
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 511,
+        "flatIntConstraints": 736,
+        "evaluatedHalfReifiedConstraints": 450,
+        "method": "minimize",
+        "flatTime": 156.399,
+        "objective": 666,
+        "objectiveBound": 666,
+        "nodes": 31613,
+        "openNodes": 486,
+        "solveTime": 1564.0,
+        "time": 382.0,
+        "nSolutions": 11,
+        "low_gap": 210,
+        "upper_gap": 93450,
+        "low_gap_orig": 2133,
+        "upper_gap_orig": 11379,
+        "timeout": 106507.0,
+        "max_timeout": 106507.0
+    }
+}

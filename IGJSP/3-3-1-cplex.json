@@ -1,0 +1,79 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                453,
+                71,
+                393
+            ],
+            [
+                389,
+                0,
+                517
+            ],
+            [
+                315,
+                255,
+                0
+            ]
+        ],
+        "end_time": [
+            [
+                530,
+                131,
+                453
+            ],
+            [
+                453,
+                71,
+                530
+            ],
+            [
+                389,
+                315,
+                51
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=530\nenergy=503\nidle=1060\nstart_times = [453, 71, 393, 389, 0, 517, 315, 255, 0]\nend_times =[530, 131, 453, 453, 71, 530, 389, 315, 51]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[77, 60, 60, 64, 71, 13, 74, 60, 51]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 47,
+        "flatIntConstraints": 65,
+        "evaluatedHalfReifiedConstraints": 18,
+        "method": "satisfy",
+        "flatTime": 60.192,
+        "nodes": 0,
+        "solveTime": 4.0,
+        "time": 76.0,
+        "openNodes": 1,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 1185,
+            "upper": 1589
+        },
+        "gap_end": {
+            "lower": 1185,
+            "upper": 1589
+        }
+    }
+}

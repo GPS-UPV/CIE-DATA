@@ -1,0 +1,97 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                820,
+                669,
+                24,
+                736
+            ],
+            [
+                696,
+                730,
+                21,
+                0,
+                831
+            ],
+            [
+                587,
+                106,
+                59,
+                791,
+                643
+            ]
+        ],
+        "end_time": [
+            [
+                24,
+                866,
+                736,
+                116,
+                820
+            ],
+            [
+                730,
+                820,
+                59,
+                21,
+                866
+            ],
+            [
+                643,
+                170,
+                106,
+                866,
+                736
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=866\nenergy=861\nidle=3464\nstart_times = [0, 820, 669, 24, 736, 696, 730, 21, 0, 831, 587, 106, 59, 791, 643]\nend_times =[24, 866, 736, 116, 820, 730, 820, 59, 21, 866, 643, 170, 106, 866, 736]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[24, 46, 67, 92, 84, 34, 90, 38, 21, 35, 56, 64, 47, 75, 93]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 77,
+        "flatIntConstraints": 122,
+        "evaluatedHalfReifiedConstraints": 30,
+        "method": "satisfy",
+        "flatTime": 64.012,
+        "nodes": 0,
+        "solveTime": 5.0,
+        "time": 82.0,
+        "openNodes": 1,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 4156,
+            "upper": 4786
+        },
+        "gap_end": {
+            "lower": 4156,
+            "upper": 4786
+        }
+    }
+}

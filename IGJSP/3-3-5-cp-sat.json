@@ -1,0 +1,84 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                2979,
+                36
+            ],
+            [
+                17,
+                61,
+                201
+            ],
+            [
+                2974,
+                0,
+                10
+            ]
+        ],
+        "end_time": [
+            [
+                17,
+                3014,
+                80
+            ],
+            [
+                61,
+                83,
+                235
+            ],
+            [
+                3014,
+                10,
+                36
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                5,
+                5,
+                5
+            ],
+            [
+                5,
+                5,
+                5
+            ],
+            [
+                5,
+                5,
+                5
+            ]
+        ],
+        "_output_item": "makespan=3014\nenergy=667\nidle=8770\nstart_times = [0, 2979, 36, 17, 61, 201, 2974, 0, 10]\nend_times =[17, 3014, 80, 61, 83, 235, 3014, 10, 36]\nspeed_assignment =[5, 5, 5, 5, 5, 5, 5, 5, 5]\ntimepro =[98, 33, 24, 19, 17, 198, 68, 48, 40, 35, 245, 84, 60, 50, 44, 246, 85, 60, 50, 44, 126, 43, 31, 25, 22, 193, 66, 47, 39, 34, 226, 78, 55, 46, 40, 56, 19, 13, 11, 10, 146, 50, 35, 29, 26]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 18,
+        "flatIntVars": 47,
+        "flatBoolConstraints": 9,
+        "flatIntConstraints": 56,
+        "evaluatedHalfReifiedConstraints": 18,
+        "method": "satisfy",
+        "flatTime": 48.97,
+        "time": 80.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 11,
+        "failures": 0,
+        "propagations": 156,
+        "solveTime": 7.854,
+        "lower_gap_ini": {
+            "lower": 922,
+            "upper": 1190
+        },
+        "gap_end": {
+            "lower": 922,
+            "upper": 1190
+        }
+    }
+}

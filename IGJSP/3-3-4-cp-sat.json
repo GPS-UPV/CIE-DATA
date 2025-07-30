@@ -1,0 +1,84 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                343,
+                663
+            ],
+            [
+                1242,
+                43,
+                1282
+            ],
+            [
+                69,
+                17,
+                353
+            ]
+        ],
+        "end_time": [
+            [
+                34,
+                369,
+                700
+            ],
+            [
+                1281,
+                86,
+                1313
+            ],
+            [
+                85,
+                43,
+                366
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                4,
+                4,
+                4
+            ],
+            [
+                4,
+                4,
+                4
+            ],
+            [
+                4,
+                4,
+                4
+            ]
+        ],
+        "_output_item": "makespan=1313\nenergy=671\nidle=3674\nstart_times = [0, 343, 663, 1242, 43, 1282, 69, 17, 353]\nend_times =[34, 369, 700, 1281, 86, 1313, 85, 43, 366]\nspeed_assignment =[4, 4, 4, 4, 4, 4, 4, 4, 4]\ntimepro =[189, 56, 40, 34, 149, 44, 32, 26, 208, 62, 44, 37, 219, 65, 47, 39, 239, 71, 51, 43, 175, 52, 37, 31, 90, 26, 19, 16, 149, 44, 32, 26, 73, 21, 15, 13]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 18,
+        "flatIntVars": 47,
+        "flatBoolConstraints": 9,
+        "flatIntConstraints": 56,
+        "evaluatedHalfReifiedConstraints": 18,
+        "method": "satisfy",
+        "flatTime": 48.777,
+        "time": 95.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 15,
+        "failures": 0,
+        "propagations": 170,
+        "solveTime": 22.646,
+        "lower_gap_ini": {
+            "lower": 1068,
+            "upper": 1426
+        },
+        "gap_end": {
+            "lower": 1068,
+            "upper": 1426
+        }
+    }
+}

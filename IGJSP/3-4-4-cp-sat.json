@@ -1,0 +1,93 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                2038,
+                56,
+                41
+            ],
+            [
+                20,
+                0,
+                12,
+                8
+            ],
+            [
+                41,
+                79,
+                2013,
+                12
+            ]
+        ],
+        "end_time": [
+            [
+                20,
+                2049,
+                64,
+                56
+            ],
+            [
+                31,
+                8,
+                18,
+                12
+            ],
+            [
+                79,
+                106,
+                2049,
+                41
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                4,
+                4,
+                4,
+                4
+            ],
+            [
+                4,
+                4,
+                4,
+                4
+            ],
+            [
+                4,
+                4,
+                4,
+                4
+            ]
+        ],
+        "_output_item": "makespan=2049\nenergy=1006\nidle=7983\nstart_times = [0, 2038, 56, 41, 20, 0, 12, 8, 41, 79, 2013, 12]\nend_times =[20, 2049, 64, 56, 31, 8, 18, 12, 79, 106, 2049, 41]\nspeed_assignment =[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]\ntimepro =[112, 33, 24, 20, 64, 19, 13, 11, 46, 13, 10, 8, 85, 25, 18, 15, 66, 19, 14, 11, 45, 13, 9, 8, 36, 10, 7, 6, 27, 8, 5, 4, 214, 64, 46, 38, 154, 46, 33, 27, 205, 61, 44, 36, 164, 49, 35, 29]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 24,
+        "flatIntVars": 62,
+        "flatBoolConstraints": 12,
+        "flatIntConstraints": 80,
+        "evaluatedHalfReifiedConstraints": 24,
+        "method": "satisfy",
+        "flatTime": 51.423,
+        "time": 111.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 16,
+        "failures": 0,
+        "propagations": 260,
+        "solveTime": 35.376,
+        "lower_gap_ini": {
+            "lower": 2374,
+            "upper": 2846
+        },
+        "gap_end": {
+            "lower": 2374,
+            "upper": 2846
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                25,
+                65,
+                97
+            ],
+            [
+                25,
+                65,
+                171,
+                137
+            ],
+            [
+                120,
+                100,
+                190,
+                2234
+            ]
+        ],
+        "end_time": [
+            [
+                25,
+                65,
+                97,
+                137
+            ],
+            [
+                43,
+                100,
+                190,
+                171
+            ],
+            [
+                138,
+                120,
+                209,
+                2277
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                2,
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2,
+                2
+            ]
+        ],
+        "_output_item": "makespan=2277\nenergy=900\nidle=8765\nstart_times = [0, 25, 65, 97, 25, 65, 171, 137, 120, 100, 190, 2234]\nend_times =[25, 65, 97, 137, 43, 100, 190, 171, 138, 120, 209, 2277]\nspeed_assignment =[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]\ntimepro =[143, 25, 227, 40, 180, 32, 224, 40, 101, 18, 195, 35, 106, 19, 193, 34, 103, 18, 114, 20, 106, 19, 242, 43]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 98,
+        "flatIntConstraints": 116,
+        "evaluatedHalfReifiedConstraints": 24,
+        "method": "satisfy",
+        "flatTime": 65.995,
+        "nodes": 0,
+        "solveTime": 84.0,
+        "time": 79.0,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 2350,
+            "upper": 2820
+        },
+        "gap_end": {
+            "lower": 2350,
+            "upper": 2820
+        }
+    }
+}

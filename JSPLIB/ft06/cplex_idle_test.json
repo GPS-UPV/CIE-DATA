@@ -1,0 +1,77 @@
+{
+    "status": "OPTIMAL_SOLUTION",
+    "solution": {
+        "objective": 55,
+        "s": [
+            [
+                7,
+                8,
+                25,
+                31,
+                38,
+                49
+            ],
+            [
+                0,
+                8,
+                13,
+                28,
+                40,
+                50
+            ],
+            [
+                0,
+                5,
+                11,
+                21,
+                37,
+                38
+            ],
+            [
+                11,
+                16,
+                22,
+                27,
+                30,
+                46
+            ],
+            [
+                13,
+                22,
+                25,
+                41,
+                50,
+                54
+            ],
+            [
+                8,
+                11,
+                19,
+                30,
+                45,
+                49
+            ]
+        ],
+        "makespan": 55,
+        "idle_time": 133
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 223,
+        "flatIntConstraints": 313,
+        "evaluatedHalfReifiedConstraints": 180,
+        "method": "minimize",
+        "flatTime": 131.643,
+        "objective": 55,
+        "objectiveBound": 55,
+        "nodes": 187,
+        "openNodes": 28,
+        "solveTime": 22.0,
+        "time": 160.0,
+        "nSolutions": 4,
+        "low_gap": 7,
+        "upper_gap": 722,
+        "timeout": 21888.0,
+        "max_timeout": 21888.0
+    }
+}

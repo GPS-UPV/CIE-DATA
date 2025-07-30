@@ -1,0 +1,96 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                0,
+                820,
+                116,
+                24,
+                183
+            ],
+            [
+                221,
+                255,
+                183,
+                116,
+                345
+            ],
+            [
+                642,
+                578,
+                531,
+                791,
+                698
+            ]
+        ],
+        "end_time": [
+            [
+                24,
+                866,
+                183,
+                116,
+                267
+            ],
+            [
+                255,
+                345,
+                221,
+                137,
+                380
+            ],
+            [
+                698,
+                642,
+                578,
+                866,
+                791
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=866\nenergy=861\nidle=3464\nstart_times = [0, 820, 116, 24, 183, 221, 255, 183, 116, 345, 642, 578, 531, 791, 698]\nend_times =[24, 866, 183, 116, 267, 255, 345, 221, 137, 380, 698, 642, 578, 866, 791]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[24, 46, 67, 92, 84, 34, 90, 38, 21, 35, 56, 64, 47, 75, 93]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 77,
+        "flatIntConstraints": 122,
+        "evaluatedHalfReifiedConstraints": 30,
+        "method": "satisfy",
+        "flatTime": 63.315,
+        "nodes": 0,
+        "solveTime": 80.0,
+        "time": 76.0,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 4156,
+            "upper": 4786
+        },
+        "gap_end": {
+            "lower": 4156,
+            "upper": 4786
+        }
+    }
+}

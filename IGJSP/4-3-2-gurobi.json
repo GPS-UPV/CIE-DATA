@@ -1,0 +1,93 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                89,
+                32,
+                47
+            ],
+            [
+                121,
+                47,
+                89
+            ],
+            [
+                102,
+                94,
+                2
+            ],
+            [
+                32,
+                0,
+                113
+            ]
+        ],
+        "end_time": [
+            [
+                96,
+                47,
+                89
+            ],
+            [
+                313,
+                87,
+                113
+            ],
+            [
+                121,
+                102,
+                47
+            ],
+            [
+                68,
+                32,
+                297
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                1,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                1
+            ]
+        ],
+        "_output_item": "makespan=313\nenergy=796\nidle=295\nstart_times = [89, 32, 47, 121, 47, 89, 102, 94, 2, 32, 0, 113]\nend_times =[96, 47, 89, 313, 87, 113, 121, 102, 47, 68, 32, 297]\nspeed_assignment =[2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1]\ntimepro =[42, 7, 83, 15, 238, 42, 192, 34, 226, 40, 137, 24, 108, 19, 48, 8, 254, 45, 200, 36, 181, 32, 184, 33]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 110,
+        "flatIntConstraints": 128,
+        "evaluatedHalfReifiedConstraints": 36,
+        "method": "satisfy",
+        "flatTime": 69.782,
+        "nodes": 0,
+        "solveTime": 87.0,
+        "time": 82.0,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 1444,
+            "upper": 1902
+        },
+        "gap_end": {
+            "lower": 1444,
+            "upper": 1902
+        }
+    }
+}

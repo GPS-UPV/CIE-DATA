@@ -1,0 +1,99 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                218,
+                415,
+                123
+            ],
+            [
+                23,
+                230,
+                109
+            ],
+            [
+                122,
+                336,
+                226
+            ],
+            [
+                343,
+                0,
+                38
+            ]
+        ],
+        "end_time": [
+            [
+                313,
+                441,
+                218
+            ],
+            [
+                109,
+                271,
+                123
+            ],
+            [
+                150,
+                389,
+                321
+            ],
+            [
+                399,
+                38,
+                77
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=441\nenergy=710\nidle=657\nstart_times = [218, 415, 123, 23, 230, 109, 122, 336, 226, 343, 0, 38]\nend_times =[313, 441, 218, 109, 271, 123, 150, 389, 321, 399, 38, 77]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[95, 26, 95, 86, 41, 14, 28, 53, 95, 56, 38, 39]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 36,
+        "flatIntVars": 26,
+        "flatBoolConstraints": 18,
+        "flatIntConstraints": 62,
+        "evaluatedHalfReifiedConstraints": 36,
+        "method": "satisfy",
+        "flatTime": 50.554,
+        "time": 103.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 22,
+        "failures": 0,
+        "propagations": 344,
+        "solveTime": 29.82,
+        "lower_gap_ini": {
+            "lower": 1400,
+            "upper": 1900
+        },
+        "gap_end": {
+            "lower": 1400,
+            "upper": 1900
+        }
+    }
+}

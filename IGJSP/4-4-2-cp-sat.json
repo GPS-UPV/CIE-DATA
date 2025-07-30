@@ -1,0 +1,111 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                266,
+                191,
+                198,
+                235
+            ],
+            [
+                143,
+                177,
+                108,
+                191
+            ],
+            [
+                108,
+                113,
+                67,
+                38
+            ],
+            [
+                48,
+                38,
+                0,
+                8
+            ]
+        ],
+        "end_time": [
+            [
+                307,
+                198,
+                235,
+                266
+            ],
+            [
+                177,
+                191,
+                143,
+                201
+            ],
+            [
+                113,
+                149,
+                108,
+                67
+            ],
+            [
+                83,
+                48,
+                8,
+                38
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                2,
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2,
+                2
+            ]
+        ],
+        "_output_item": "makespan=307\nenergy=1248\nidle=825\nstart_times = [266, 191, 198, 235, 143, 177, 108, 191, 108, 113, 67, 38, 48, 38, 0, 8]\nend_times =[307, 198, 235, 266, 177, 191, 143, 201, 113, 149, 108, 67, 83, 48, 8, 38]\nspeed_assignment =[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]\ntimepro =[228, 41, 41, 7, 208, 37, 175, 31, 190, 34, 80, 14, 197, 35, 58, 10, 31, 5, 200, 36, 231, 41, 162, 29, 199, 35, 55, 10, 45, 8, 168, 30]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 48,
+        "flatIntVars": 82,
+        "flatBoolConstraints": 24,
+        "flatIntConstraints": 122,
+        "evaluatedHalfReifiedConstraints": 48,
+        "method": "satisfy",
+        "flatTime": 54.305,
+        "time": 102.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 29,
+        "failures": 0,
+        "propagations": 658,
+        "solveTime": 21.25,
+        "lower_gap_ini": {
+            "lower": 2700,
+            "upper": 3296
+        },
+        "gap_end": {
+            "lower": 2700,
+            "upper": 3296
+        }
+    }
+}

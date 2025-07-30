@@ -1,0 +1,10 @@
+JOBS = 1..3;
+MACHINES = 1..3;
+SPEED = 2;
+time = array3d(JOBS,MACHINES,1..SPEED,[182,32,176,31,69,12,164,29,127,23,71,12,147,26,216,38,122,21]);
+energy = array3d(JOBS,MACHINES,1..SPEED,[16,72,17,73,50,88,19,74,28,79,49,88,22,77,11,68,29,81]);
+precedence = array2d(JOBS,MACHINES,[2,1,0,2,1,0,2,1,0]);
+ME = 1;
+TE = 131;
+st_old = array2d(JOBS,MACHINES,[43,12,0,225,83,12,254,210,88]);
+SpeedScaling = array2d(JOBS,MACHINES,[1,2,2,2,1,1,2,2,1]);

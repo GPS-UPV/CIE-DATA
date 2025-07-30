@@ -1,0 +1,109 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                949,
+                808,
+                0
+            ],
+            [
+                58,
+                905,
+                1004
+            ],
+            [
+                863,
+                0,
+                804
+            ],
+            [
+                0,
+                1025,
+                955
+            ],
+            [
+                123,
+                739,
+                650
+            ]
+        ],
+        "end_time": [
+            [
+                1046,
+                905,
+                83
+            ],
+            [
+                123,
+                1004,
+                1046
+            ],
+            [
+                949,
+                62,
+                863
+            ],
+            [
+                58,
+                1046,
+                1004
+            ],
+            [
+                193,
+                808,
+                739
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=1046\nenergy=758\nidle=2092\nstart_times = [949, 808, 0, 58, 905, 1004, 863, 0, 804, 0, 1025, 955, 123, 739, 650]\nend_times =[1046, 905, 83, 123, 1004, 1046, 949, 62, 863, 58, 1046, 1004, 193, 808, 739]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[97, 97, 83, 65, 99, 42, 86, 62, 59, 58, 21, 49, 70, 69, 89]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 107,
+        "flatIntConstraints": 152,
+        "evaluatedHalfReifiedConstraints": 60,
+        "method": "satisfy",
+        "flatTime": 67.09700000000001,
+        "nodes": 0,
+        "solveTime": 4.0,
+        "time": 85.0,
+        "openNodes": 1,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 1461,
+            "upper": 1903
+        },
+        "gap_end": {
+            "lower": 1461,
+            "upper": 1903
+        }
+    }
+}

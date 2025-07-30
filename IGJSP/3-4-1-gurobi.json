@@ -1,0 +1,87 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                104,
+                0,
+                175,
+                76
+            ],
+            [
+                175,
+                433,
+                256,
+                341
+            ],
+            [
+                551,
+                468,
+                341,
+                484
+            ]
+        ],
+        "end_time": [
+            [
+                175,
+                76,
+                256,
+                104
+            ],
+            [
+                199,
+                468,
+                341,
+                433
+            ],
+            [
+                641,
+                484,
+                384,
+                551
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=641\nenergy=684\nidle=1856\nstart_times = [104, 0, 175, 76, 175, 433, 256, 341, 551, 468, 341, 484]\nend_times =[175, 76, 256, 104, 199, 468, 341, 433, 641, 484, 384, 551]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[71, 76, 81, 28, 24, 35, 85, 92, 90, 16, 43, 67]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 62,
+        "flatIntConstraints": 92,
+        "evaluatedHalfReifiedConstraints": 24,
+        "method": "satisfy",
+        "flatTime": 64.395,
+        "nodes": 0,
+        "solveTime": 82.0,
+        "time": 77.0,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 2274,
+            "upper": 2778
+        },
+        "gap_end": {
+            "lower": 2274,
+            "upper": 2778
+        }
+    }
+}

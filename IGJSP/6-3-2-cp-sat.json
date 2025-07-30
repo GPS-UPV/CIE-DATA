@@ -1,0 +1,129 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                29,
+                8,
+                0
+            ],
+            [
+                71,
+                95,
+                8
+            ],
+            [
+                127,
+                100,
+                41
+            ],
+            [
+                134,
+                160,
+                168
+            ],
+            [
+                193,
+                210,
+                183
+            ],
+            [
+                259,
+                240,
+                285
+            ]
+        ],
+        "end_time": [
+            [
+                71,
+                29,
+                8
+            ],
+            [
+                95,
+                100,
+                41
+            ],
+            [
+                134,
+                127,
+                83
+            ],
+            [
+                160,
+                168,
+                183
+            ],
+            [
+                210,
+                240,
+                193
+            ],
+            [
+                285,
+                259,
+                294
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ]
+        ],
+        "_output_item": "makespan=294\nenergy=1469\nidle=513\nstart_times = [29, 8, 0, 71, 95, 8, 127, 100, 41, 134, 160, 168, 193, 210, 183, 259, 240, 285]\nend_times =[71, 29, 8, 95, 100, 41, 134, 127, 83, 160, 168, 183, 210, 240, 193, 285, 259, 294]\nspeed_assignment =[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]\ntimepro =[234, 42, 122, 21, 45, 8, 138, 24, 29, 5, 186, 33, 42, 7, 150, 27, 237, 42, 145, 26, 48, 8, 88, 15, 97, 17, 168, 30, 55, 10, 148, 26, 106, 19, 54, 9]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 90,
+        "flatIntVars": 98,
+        "flatBoolConstraints": 45,
+        "flatIntConstraints": 170,
+        "evaluatedHalfReifiedConstraints": 90,
+        "method": "satisfy",
+        "flatTime": 58.007999999999996,
+        "time": 104.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 58,
+        "failures": 0,
+        "propagations": 852,
+        "solveTime": 16.943,
+        "lower_gap_ini": {
+            "lower": 1667,
+            "upper": 2177
+        },
+        "gap_end": {
+            "lower": 1667,
+            "upper": 2177
+        }
+    }
+}

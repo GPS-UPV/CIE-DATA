@@ -1,0 +1,94 @@
+{
+    "status": "SATISFIED",
+    "solution": {
+        "start_time": [
+            [
+                129,
+                72,
+                87
+            ],
+            [
+                2194,
+                32,
+                2170
+            ],
+            [
+                2175,
+                2167,
+                0
+            ],
+            [
+                32,
+                0,
+                2195
+            ]
+        ],
+        "end_time": [
+            [
+                136,
+                87,
+                129
+            ],
+            [
+                2228,
+                72,
+                2194
+            ],
+            [
+                2194,
+                2175,
+                45
+            ],
+            [
+                68,
+                32,
+                2228
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ]
+        ],
+        "_output_item": "makespan=2228\nenergy=909\nidle=6349\nstart_times = [129, 72, 87, 2194, 32, 2170, 2175, 2167, 0, 32, 0, 2195]\nend_times =[136, 87, 129, 2228, 72, 2194, 2194, 2175, 45, 68, 32, 2228]\nspeed_assignment =[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]\ntimepro =[42, 7, 83, 15, 238, 42, 192, 34, 226, 40, 137, 24, 108, 19, 48, 8, 254, 45, 200, 36, 181, 32, 184, 33]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatIntVars": 110,
+        "flatIntConstraints": 128,
+        "evaluatedHalfReifiedConstraints": 36,
+        "method": "satisfy",
+        "flatTime": 66.949,
+        "nodes": 0,
+        "solveTime": 4.0,
+        "time": 85.0,
+        "openNodes": 1,
+        "nSolutions": 1,
+        "lower_gap_ini": {
+            "lower": 1444,
+            "upper": 1902
+        },
+        "gap_end": {
+            "lower": 1444,
+            "upper": 1902
+        }
+    }
+}

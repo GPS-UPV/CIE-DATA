@@ -1,0 +1,114 @@
+{
+    "status": "ALL_SOLUTIONS",
+    "solution": {
+        "start_time": [
+            [
+                301,
+                204,
+                121
+            ],
+            [
+                398,
+                463,
+                562
+            ],
+            [
+                463,
+                0,
+                62
+            ],
+            [
+                0,
+                562,
+                293
+            ],
+            [
+                58,
+                301,
+                204
+            ]
+        ],
+        "end_time": [
+            [
+                398,
+                301,
+                204
+            ],
+            [
+                463,
+                562,
+                604
+            ],
+            [
+                549,
+                62,
+                121
+            ],
+            [
+                58,
+                583,
+                342
+            ],
+            [
+                128,
+                370,
+                293
+            ]
+        ],
+        "SpeedScaling": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ],
+        "_output_item": "makespan=604\nenergy=758\nidle=766\nstart_times = [301, 204, 121, 398, 463, 562, 463, 0, 62, 0, 562, 293, 58, 301, 204]\nend_times =[398, 301, 204, 463, 562, 604, 549, 62, 121, 58, 583, 342, 128, 370, 293]\nspeed_assignment =[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\ntimepro =[97, 97, 83, 65, 99, 42, 86, 62, 59, 58, 21, 49, 70, 69, 89]\n",
+        "_checker": ""
+    },
+    "statistics": {
+        "paths": 0,
+        "flatBoolVars": 60,
+        "flatIntVars": 32,
+        "flatBoolConstraints": 30,
+        "flatIntConstraints": 92,
+        "evaluatedHalfReifiedConstraints": 60,
+        "method": "satisfy",
+        "flatTime": 56.969,
+        "time": 93.0,
+        "nSolutions": 1,
+        "objective": 0,
+        "objectiveBound": 0,
+        "boolVariables": 30,
+        "failures": 0,
+        "propagations": 203,
+        "solveTime": 8.777999999999999,
+        "lower_gap_ini": {
+            "lower": 1461,
+            "upper": 1903
+        },
+        "gap_end": {
+            "lower": 1461,
+            "upper": 1903
+        }
+    }
+}
