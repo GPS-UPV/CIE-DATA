@@ -1,15 +1,13 @@
-# JIM‑DATA: Dynamic Idle‑Time Bounding Heuristic Dataset
+# Dynamic Idle‑Time Bounding Heuristic Dataset
 
 This repository contains the data generated and used in the paper
 **“Dynamic Idle‑Time Bounding Heuristic for the Job Shop Scheduling Problem”**
-(Pérez et al., 2025), Universitat Politècnica de València.
-
 ---
 
 ## 📂 Repository Structure
 
 ```
-JIM-DATA/
+CIE-DATA/
 ├── IGJSP/        🗄️  # Generated JSP instances (.dzn)
 └── JSPLIB/       ⚙️  # Solver outputs (.json)
 ```
